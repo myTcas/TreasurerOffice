@@ -78,8 +78,8 @@ footer {
 }
 
 .col-2 {
-    flex: 0 0 auto;
-    width: 16.66666667%;
+    flex: 0 0 16.67%;
+    width: 16.67%;
 }
 .row>* {
     max-width: 100%;
@@ -89,8 +89,8 @@ footer {
 }
 
 .col-10 {
-    flex: 0 0 auto;
-    width: 78.5%;
+    flex: 0 0 75%;
+    width: 75%;
 }
 .pt-3 {
     padding-top: 1rem !important;
