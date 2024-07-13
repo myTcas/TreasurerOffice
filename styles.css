@@ -161,7 +161,7 @@ b, strong {
 }
 
 ul.mainmenu {
-    border: 1px solid #BF0000;
+    border: 1px solid #000;
 }
 .mainmenu, .submenu {
     list-style: none;
