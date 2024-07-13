@@ -3,9 +3,9 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #f4f4f4;
+    background: url(https://tambonsamed.go.th/images/bg_left.jpg);
+    background-size: 100%;
 }
-
 header {
     background-color: #BF0000;
     color: #fff;
@@ -50,6 +50,8 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    margin: 0 20px;
+    background: #fff;
 }
 
 section {
@@ -64,7 +66,7 @@ footer {
     width: 100%;
 }
 #marquee{
-    margin-top: 73px;
+    margin-top: 70px;
 }
 .row {
     --bs-gutter-x: 1.5rem;
