@@ -181,7 +181,7 @@ ul.mainmenu li {
     text-decoration: #0697d0;
 }
 .mainmenu a:hover, .mainmenu label:hover {
-    backgrounh:#0697D0;
+    backgrounh:#d00606;
 }
 
 @media only screen and (min-width: 1024px) {
