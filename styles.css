@@ -173,6 +173,10 @@ ul.mainmenu li {
     text-align: left;
 }
 
+ul.mainmenu li:hover{
+    background:#d00606;
+}
+
 .mainmenu a, .mainmenu label {
     display: block;
     cursor: pointer;
@@ -180,10 +184,6 @@ ul.mainmenu li {
     color: #fff;
     text-decoration: #0697d0;
 }
-.mainmenu a:hover, .mainmenu label:hover {
-    backgrounh:#d00606;
-}
-
 @media only screen and (min-width: 1024px) {
   main {
       margin: 70px 80px 0 80px;
