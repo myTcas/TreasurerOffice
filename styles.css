@@ -153,3 +153,34 @@ b, strong {
   margin: 10px;
   font-size:10px;
 }
+
+
+.style43 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul.mainmenu {
+    border: 1px solid #0697d0;
+}
+.mainmenu, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.mainmenu li {
+    font-size: 15px;
+    position: relative;
+    text-align: left;
+}
+
+.mainmenu a, .mainmenu label {
+    display: block;
+    cursor: pointer;
+    background-color: #6ad1f0;
+    padding: 0.5em 0.75em;
+    color: #010323;
+    text-decoration: #0697d0;
+}
