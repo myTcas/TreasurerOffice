@@ -49,8 +49,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 20px;
-    margin: 0 20px;
+    margin: 70px 20px 0 20px;
     background: #fff;
 }
 
@@ -66,7 +65,7 @@ footer {
     width: 100%;
 }
 #marquee{
-    margin-top: 70px;
+    margin-bottom: 20px;
 }
 .row {
     --bs-gutter-x: 1.5rem;
@@ -115,4 +114,42 @@ label {
 }
 b, strong {
     font-weight: bolder;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left {
+    flex: 1;
+    max-width: 20%;
+    background-color: #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.right {
+    flex: 4;
+    max-width: 80%;
+    background-color: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.left-img{
+  text-align: center;
+  padding: 0;
+}
+
+.left-img img{
+  border-radius: 5px;
+  width:100%;
+}
+.left-img h3{
+  margin: 10px;
+  font-size: 12px;
+}
+.left-img p{
+  margin: 10px;
+  font-size:10px;
 }
