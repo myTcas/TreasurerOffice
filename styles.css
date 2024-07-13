@@ -124,7 +124,7 @@ b, strong {
 .left {
     flex: 1;
     max-width: 20%;
-    background-color: #ddd;
+    background-color: #d00606;
     padding: 10px;
     box-sizing: border-box;
 }
