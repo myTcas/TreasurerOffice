@@ -160,9 +160,6 @@ b, strong {
     font-size: 16px;
 }
 
-ul.mainmenu {
-    border: 1px solid #000;
-}
 .mainmenu, .submenu {
     list-style: none;
     padding: 0;
