@@ -123,7 +123,8 @@ b, strong {
 
 .left {
     flex: 1;
-    max-width: 20%;
+    max-width: 200px;
+    min-width: 200px;
     background-color: #d00606;
     padding: 10px;
     box-sizing: border-box;
@@ -131,7 +132,7 @@ b, strong {
 
 .right {
     flex: 4;
-    max-width: 80%;
+    max-width: auto;
     background-color: #eee;
     padding: 10px;
     box-sizing: border-box;
