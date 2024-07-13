@@ -178,9 +178,8 @@ ul.mainmenu li {
 .mainmenu a, .mainmenu label {
     display: block;
     cursor: pointer;
-    background-color: #6ad1f0;
     padding: 0.5em 0.75em;
-    color: #010323;
+    color: #fff;
     text-decoration: #0697d0;
 }
 
