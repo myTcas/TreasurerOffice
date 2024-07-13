@@ -12,6 +12,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 header .logo img {
@@ -44,6 +47,7 @@ nav ul li a:hover {
 }
 
 main {
+    margin-top: 73px;
     padding: 20px;
 }
 
