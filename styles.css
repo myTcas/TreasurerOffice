@@ -80,8 +80,6 @@ footer {
     width: 16.66666667%;
 }
 .row>* {
-    flex-shrink: 0;
-    width: 100%;
     max-width: 100%;
     padding-right: calc(var(--bs-gutter-x)* .5);
     padding-left: calc(var(--bs-gutter-x)* .5);
