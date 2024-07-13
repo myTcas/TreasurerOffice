@@ -2,6 +2,7 @@ body {
     font-family: "Sarabun", sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     background-color: #f4f4f4;
 }
 
@@ -88,7 +89,7 @@ footer {
 
 .col-10 {
     flex: 0 0 auto;
-    width: 83.33333333%;
+    width: 78.5%;
 }
 .pt-3 {
     padding-top: 1rem !important;
