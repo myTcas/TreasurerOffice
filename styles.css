@@ -34,11 +34,13 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
+    transition: .5s;
 }
 
 nav ul li a:hover {
     color: #fff;
     border-bottom: 2px solid #fff;
+    transition: .5s;
 }
 
 main {
