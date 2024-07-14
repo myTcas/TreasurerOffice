@@ -133,7 +133,7 @@ b, strong {
 .right {
     flex: 4;
     max-width: auto;
-    background-color: #eee;
+	
     padding: 10px;
     box-sizing: border-box;
 }
