@@ -191,3 +191,17 @@ ul.mainmenu li:hover{
       background: #fff;
   }
 }
+
+a:link {
+	text-decoration: none;
+}
+a.style2:visited {
+	text-decoration: none;
+}
+a.style2:active {
+	text-decoration: underline;
+}
+a.style2:hover {
+	text-decoration: underline;
+	color: none;
+}
