@@ -204,10 +204,15 @@ a.style2:active {
 a.style2:hover {
 	text-decoration: underline;
 	color: none;
-    	font-weight: 600;
+    	font-weight: 500;
 }
 
 .style2 {
     font-size: 15px;
     color: #000000;
+}
+
+.style21 {
+    color: #000000;
+    font-size: 15px;
 }
