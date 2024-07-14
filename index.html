@@ -189,6 +189,89 @@
                     </table>
                     </td>
                     <!-- Center Box -->
+
+                        <td valign="top" width="220">
+<table border="0" cellpadding="0" cellspacing="0" width="220" style="padding-right:5px; ">
+<tbody>
+<tr>
+<td align="center" valign="top">
+
+
+
+
+
+
+<img src="	https://www.laodang.go.th/image_files/vote_banner.png">
+<iframe name="votar" style="display:none;"></iframe>
+<form id="voteform" method="post" action="submit_vote.php" target="votar">
+<table align="center" style="width:200px; border: 1px solid #C3C3C3;">
+	<thead>
+		<tr>
+			<th><p style="margin-top:10px;margin-bottom:10px;"><span style="color:grey;font-weight:bold;font-size: 15px;">ความพึงพอใจต่อการให้บริการของ สำนักเหรัญญิกฯ</span></p></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="left" height="10" style="color:black;font-size: 15px;"><input class="form-control" type="radio" name="vote_choice" value="น้อยที่สุด" required="">น้อยที่สุด</td>
+		</tr>
+		<tr>
+			<td align="left" height="10" style="color:black;font-size: 15px;"><input class="form-control" type="radio" name="vote_choice" value="น้อย" required="">น้อย</td>
+		</tr>
+		<tr>
+			<td align="left" height="10" style="color:black;font-size: 15px;"><input class="form-control" type="radio" name="vote_choice" value="ปานกลาง" required="">ปานกลาง</td>
+		</tr>
+		<tr>
+			<td align="left" height="10" style="color:black;font-size: 15px;"><input class="form-control" type="radio" name="vote_choice" value="มาก" required="">มาก</td>
+		</tr>
+		<tr>
+			<td align="left" height="10" style="color:black;font-size: 15px;"><input class="form-control" type="radio" name="vote_choice" value="มากที่สุด" required="">มากที่สุด</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+  <th>
+  <br>
+  <button id="submitVotebtn" type="submit" onclick="submitVoteForm()" style="display: none;">Vote</button>
+  <button type="button" onclick="show_vote();">ดูผล Vote</button>
+  </th>
+		  </tr>
+	</tfoot>
+</table>
+</form>
+<script>
+function show_vote(){
+	params = 'scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=400,height=600';
+    sList=window.open('vote_result.php', "vote_result",params);
+}
+function submitVoteForm(){
+	document.getElementById('submitVotebtn').style.display = 'none';
+	alert("บันทึกข้อมูลการทำแบบสำรวจแล้ว");
+}
+</script>
+<br>
+<span style="color:grey;">สถิติผู้เข้าชมเว็บไซต์</span>
+<p style="margin-top:10px;margin-bottom:10px;"><span style="color:grey;font-weight:bold;">50</span></p>
+<table align="center" style="width:100px; border: 1px solid #C3C3C3;" id="opener">
+	<tbody>
+		<tr>
+			<td align="left" height="10"><small style="color:grey;">Today<small></small></small></td>
+			<td align="right" height="10"><small style="color:grey;">7<small></small></small></td>
+		</tr>
+		<tr>
+			<td align="left" height="10"><small style="color:grey;">Yesterday<small></small></small></td>
+			<td align="right" height="10"><small style="color:grey;">12<small></small></small></td>
+		</tr>
+		<tr>
+			<td align="left" height="10"><small style="color:grey;">All<small></small></small></td>
+			<td align="right" height="10"><small style="color:grey;">50<small></small></small></td>
+		</tr>
+	</tbody>
+</table>
+
+</td>
+</tr>
+</tbody></table>
+	</td>
                     </tr>
                     </tbody>
                 </table>
