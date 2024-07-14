@@ -15,7 +15,22 @@
         #homepage.active, #committee.active {
             display: block;
         }
+        .left-img {
+            display: block;
+        }
+        .left-img.hidden {
+            display: none;
+        }
     </style>
+<script>
+        function hideImg() {
+            document.querySelector('.left-img').classList.add('hidden');
+        }
+
+        function showImg() {
+            document.querySelector('.left-img').classList.remove('hidden');
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -24,7 +39,7 @@
         </div>
         <nav>
             <ul>
-                <li><a id="home-button" href="#">หน้าแรก</a></li>
+                <li><a id="home-button" href="#" onclick="showImg()">หน้าแรก</a></li>
                 <li><a href="#about">เกี่ยวกับเรา</a></li>
                 <li><a href="#services">บริการ</a></li>
                 <li><a href="#news">ข่าวสารและกิจกรรม</a></li>
@@ -66,7 +81,7 @@
                     <tr>
                     <td width="100%" valign="top" style="border: 1px solid #000;padding: 0;">
                       <ul class="mainmenu">
-                        <li><a href="#" class="committee">ผู้บริหาร</a></li>
+                        <li><a href="#" class="committee" onclick="hideImg()">ผู้บริหาร</a></li>
 			      <script>
 			        document.querySelector('a.committee').addEventListener('click', function(event) {
 			            event.preventDefault();
